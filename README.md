@@ -2,8 +2,8 @@ WearableComputingData
 =====================
 
 R analysis of wearable computing data, for Coursera "Getting and Cleaning Data" course assignment.
-The analysis uses data collected from the accelerometers from the Samsung Galaxy S smartphone, obtained from:
-[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+The analysis uses data collected from the accelerometers from the Samsung Galaxy S smartphone, obtained from
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 For details of the analysis performed and variables in the output, please refer to *CodeBook.md*.
 
