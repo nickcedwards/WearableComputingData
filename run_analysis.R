@@ -65,4 +65,4 @@ mdata <- melt(data, id=c("subject", "activity"))
 means <- dcast(mdata, subject+activity~variable, mean)
 
 # Write output
-write.csv(means, "tidy_means.csv")
+write.csv(means, "tidy_means.csv", row.names=FALSE )
