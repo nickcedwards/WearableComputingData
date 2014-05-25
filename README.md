@@ -8,7 +8,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 For details of the analysis performed and variables in the output, please refer to *CodeBook.md*.
 
 # Usage instructions
-The analysis can be ran in R as follows:
+The analysis can be run in R as follows:
 
 ```R
 source("run_analysis.R")
