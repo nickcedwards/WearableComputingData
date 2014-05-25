@@ -1,12 +1,16 @@
 library(reshape2)
 
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-filePath <- "HAR_data.zip"
-#download.file(url, destfile=filePath, method="curl")
-#dateDownloaded <- date()
+# Download and unzip data, if not available
+if (! file.exists("UCI HAR Dataset")) {
+  print("Downloading data")
+  fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  filePath <- "HAR_data.zip"
+  download.file(fileUrl, destfile=filePath, method="curl")
+  dateDownloaded <- date()
+  unzip(filePath)
+}
 
-unzip(filePath)
-
+print("Performing analysis")
 feature_names_tbl <- read.table("UCI HAR Dataset/features.txt")
 feature_names <- feature_names_tbl[,2]
 
