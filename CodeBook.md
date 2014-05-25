@@ -1,7 +1,7 @@
- Wearable Computing Data Codebook
- ================================
+Wearable Computing Data Codebook
+================================
 
- This analysis uses data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. A full description of the data can be found at that site.
+This analysis uses data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. A full description of the data can be found at that site.
 
 # Analysis performed
 
