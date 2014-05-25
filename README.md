@@ -19,4 +19,4 @@ The reshape2 library is required. This can be installed with:
 ```R
 install.packages("reshape2")
 ```
-The analysis assumes the data has been unzipped in the *UCI HAR Dataset* directory, but will attempt to download and unzip the data if this directory does not exist.
+The analysis assumes the data has been unzipped in the _UCI HAR Dataset_ directory, but will attempt to download and unzip the data if this directory does not exist.
